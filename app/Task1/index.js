@@ -31,11 +31,11 @@ export default class Task1 extends Component {
           {list.map((el) => {
             return (
               <p className='col-3 border' key={el.id}>
-                id-{el.id}
+                id - {el.id}
                 <br />
-                name-{el.name}
+                name - {el.name}
                 <br />
-                note-{el.note}
+                note - {el.note}
               </p>
             );
           })}
